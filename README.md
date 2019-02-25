@@ -9,7 +9,7 @@ On s'attaque  au __JS__.
 
 Plusieurs fonctionnalités a tester !
 
-Tout sera sur le fichier `html`.
+Tout sera sur le fichier `.html`.
 
                                            
 C'est tout. Amuse-toi bien!
