@@ -22,7 +22,12 @@ Tout sera sur le fichier `.html`, que tu va devoir ouvrir dans ton navigateur we
 	6. Passe ta souris sur le bouton `view` d'une card pour la réduire, repasse dessus
 	pour la faire revenir à la normale.
 	7. Lorsque tu cliques sur `==>` ça tournicote.
-	8. Lorsque tu cliques sur `<==` ça tournicote aussi.     
+	8. Lorsque tu cliques sur `<==` ça tournicote aussi.
+	9. Lorsque tu cliques sur le "JS&EVENT" et appuie sur 
+		"a" -> l'ensemble de la page va être condensé sur 4 colonnes à gauche de l'écran.
+		"y" -> l'ensemble de la page va être condensé sur 4 colonnes au centre de l'écran.
+		"p" -> l'ensemble de la page va être condensé sur 4 colonnes à droite de l'écran.
+		"b" -> l'ensemble redevient normal.
 	
                                            
 C'est tout. Amuse-toi bien!
