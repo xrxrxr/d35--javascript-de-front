@@ -40,6 +40,6 @@ C'est tout. Amuse-toi bien!
 
 ##### Quentin Vandecandelaere -> @Quentin Vandecandelaere
 
-##### Martin François -> @tinmar
+##### Martin François -> @t1mar
 
 ##### Xavier Refour -> @Xavier.Refour
