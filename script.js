@@ -11,13 +11,11 @@ let editButtonIndexOne = document.querySelectorAll(".btn-outline-secondary")[1];
 let textCardIndexOne = document.querySelectorAll(".card-text")[1];
 let allCards = document.querySelectorAll('.col-md-4');
 let greenToggler = false;
-console.log(document.querySelector('.navbar'));
 let navbar = document.querySelector('.navbar');
 let linkBootstrap = document.querySelector('link[rel=stylesheet]');
-console.log(document.querySelectorAll('.col-md-4'));
-console.log(document.querySelector('.navbar-brand'));
 let navbarBrand = document.querySelector('.navbar-brand');
-
+let clockWise = document.querySelector('.btn-secondary');
+let antiClockWise = document.querySelector('.btn-primary');
 
 footer.addEventListener('click', function(){
 	console.log("click : ceci est la fonctionnalité n°1")
@@ -70,7 +68,22 @@ for (let k = 0; k < allCards.length; k++){
 			viewToggle[k] = false;
 		};
 	});
-}
+};
+
+clockWise.addEventListener('click', function(){
+	let theFirstChild = document.querySelectorAll('.row')[1].firstElementChild;
+	let theLastChild = document.querySelectorAll('.row')[1].lastElementChild;
+	document.querySelectorAll('.row')[1].insertBefore(theLastChild,theFirstChild);
+});
+
+antiClockWise.addEventListener('click', function(){
+	antiClockWise.href = "#";
+	let theFirstChild = document.querySelectorAll('.row')[1].firstElementChild;
+	let cln = theFirstChild.cloneNode(true);
+	document.querySelectorAll('.row')[1].appendChild(cln);
+	document.querySelectorAll('.row')[1].removeChild(theFirstChild)
+
+});
 
 navbarBrand.addEventListener('keypress', (event) => {
   switch (event.key) {
