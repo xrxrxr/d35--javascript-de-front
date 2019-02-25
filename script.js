@@ -10,6 +10,7 @@ let greenToggler = false;
 console.log(document.querySelector('.navbar'));
 let navbar = document.querySelector('.navbar');
 let linkBootstrap = document.querySelector('link[rel=stylesheet]');
+let allCards = document.querySelectorAll(".btn-outline-secondary");
 
 
 footer.addEventListener('click', function(){
